@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+.page {
+  padding-top: 50px;
+}
+.rightSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.leftSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textAboutMe {
+  font-size: 30px;
+  font-style: normal;
+  line-height: 40px;
+  background-color: #edfbf4;
+  border-radius: 20px;
+  padding: 15px;
+  /* -webkit-box-shadow: 11px 15px 32px 10px rgba(0, 0, 0, 0.29); */
+  /* -moz-box-shadow: 11px 15px 32px 10px rgba(0, 0, 0, 0.29); */
+  /* box-shadow: 11px 15px 32px 10px rgba(0, 0, 0, 0.29); */
+}

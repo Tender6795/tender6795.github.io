@@ -1,0 +1,19 @@
+.page{
+  height: auto;
+  /* padding-top: 50px; */
+}
+
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.card {
+  background-color: #edfbf4 ;
+  -webkit-box-shadow: 11px 15px 32px 10px rgba(0,0,0,0.29);
+-moz-box-shadow: 11px 15px 32px 10px rgba(0,0,0,0.29);
+box-shadow: 11px 15px 32px 10px rgba(0,0,0,0.29);
+}
+

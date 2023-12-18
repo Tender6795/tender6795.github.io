@@ -1,0 +1,33 @@
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 700px;
+  grid-gap: 10px;
+  height: 320px;
+  /* padding: 20px; */
+}
+.leftSection {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rightSection {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.img {
+  height: 300px;
+  width: 580px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.description {
+  text-align: left;
+}
+.card {
+  background-color: #edfbf4;
+}

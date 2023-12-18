@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+body {
+  background-color: RGB(239, 239, 239);
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer и Edge */
+  /* background: rgba(243, 239, 21, 0.6);
+  background: -o-linear-gradient(
+    0deg,
+    rgba(243, 239, 21, 0.39) 0%,
+    rgba(0, 152, 133, 0.39) 100%
+  );
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(243, 239, 21, 0.39) 0%,
+    rgba(0, 152, 133, 0.39) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(243, 239, 21, 0.39) 0%,
+    rgba(0, 152, 133, 0.39) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(243, 239, 21, 0.39) 0%,
+    rgba(0, 152, 133, 0.39) 100%
+  ); */
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#section2 {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+} */
