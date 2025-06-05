@@ -8,6 +8,12 @@ import styled from "styled-components";
 export const ProjectsPage = () => {
   const projects = [
     {
+      title: "Witch's House",
+      description: `Free spiritual toolkit including tarot readings, natal charts, and compatibility calculator. All explained in detail and free to use.`,
+      imgPath: "./witchshouse.png",
+      link: "https://witchs-house.vercel.app",
+    },
+    {
       title: "CallJaneDoe",
       description: `Site for communication 18+. 
 The site has paid chat and paid calls through Twillio. 
@@ -38,7 +44,7 @@ and teachers can teach one or a group of students online.
 Technologies: React, Redux toolkie, Node, MongoDB
 `,
       imgPath: "./weshare.png",
-      link:'https://www.weshare.net'
+      link: "https://www.weshare.net",
     },
   ];
 
@@ -52,19 +58,19 @@ Technologies: React, Redux toolkie, Node, MongoDB
   `;
   return (
     // <AnimatedComponentWrapper>
-      <div className={styles.page}>
-        <h1>Projects</h1>
-        <CarouselWrapper  autoplay>
-          {projects.map(({ title, description, imgPath , link }, index) => (
-            <ProjectItem
-              title={title}
-              description={description}
-              imgPath={imgPath}
-              link={link}
-            />
-          ))}
-        </CarouselWrapper>
-      </div>
+    <div className={styles.page}>
+      <h1>Projects</h1>
+      <CarouselWrapper autoplay>
+        {projects.map(({ title, description, imgPath, link }, index) => (
+          <ProjectItem
+            title={title}
+            description={description}
+            imgPath={imgPath}
+            link={link}
+          />
+        ))}
+      </CarouselWrapper>
+    </div>
     // </AnimatedComponentWrapper>
   );
 };
