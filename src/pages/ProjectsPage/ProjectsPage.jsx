@@ -9,7 +9,9 @@ export const ProjectsPage = () => {
   const projects = [
     {
       title: "Witch's House",
-      description: `Free spiritual toolkit including tarot readings, natal charts, and compatibility calculator. All explained in detail and free to use.`,
+      description: `Free spiritual toolkit including tarot readings,
+       natal charts, and compatibility calculator. 
+       All explained in detail and free to use.`,
       imgPath: "./witchshouse.png",
       link: "https://witchs-house.vercel.app",
     },
@@ -17,7 +19,7 @@ export const ProjectsPage = () => {
       title: "CallJaneDoe",
       description: `Site for communication 18+. 
 The site has paid chat and paid calls through Twillio. 
-A system of statuses and refunds to the client for the fact that 
+A system of statuses and refunds to the client for the fact that n
 they do not respond for a long time has been thought out
 
 Technologies: GraphQlL, Next.js, Nest.js, TypeScript, TypeORM`,
